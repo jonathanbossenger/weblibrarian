@@ -16,7 +16,7 @@ if(file_exists($wp_root . 'wp-load.php')) {
       exit;
 }
 
-@error_reporting(0);
+@error_reporting(0); //phpcs:ignore WordPress.PHP.DevelopmentFunctions.prevent_path_disclosure_error_reporting
   
 global $wp_db_version;
 if ($wp_db_version < 8201) {
@@ -33,13 +33,13 @@ if ($wp_db_version < 8201) {
 require_once(ABSPATH.'wp-admin/admin.php');
 
 if (!current_user_can('manage_circulation')) {
-  wp_die( __('You do not have sufficient permissions to access this page.','weblibrarian') );
+  wp_die( esc_html__('You do not have sufficient permissions to access this page.','weblibrarian') );
 }
 
 /* Make sure we are first and only program */
 if (headers_sent()) {
   @header('Content-Type: ' . get_option('html_type') . '; charset=' . get_option('blog_charset'));
-  wp_die(__('The headers have been sent by another plugin - there may be a plugin conflict.','weblibrarian'));
+  wp_die(esc_html__('The headers have been sent by another plugin - there may be a plugin conflict.','weblibrarian'));
 }
 
 define('WEBLIB_FILE', basename(__FILE__));
