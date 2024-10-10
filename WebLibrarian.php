@@ -1,9 +1,10 @@
 <?php
 /**
- * Plugin Name: Web Librarian WP Plugin
+ * Plugin Name: Web Librarian
  * Plugin URI: http://www.deepsoft.com/WebLibrarian
  * Description: A plugin that implements a web-based library catalog and circulation System
  * Version: 3.5.8.4
+ * Tested up to: 6.6.2
  * Author: Robert Heller
  * Author URI: http://www.deepsoft.com/
  * Text Domain: weblibrarian

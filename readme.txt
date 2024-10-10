@@ -1,4 +1,4 @@
-=== Web Librarian WP Plugin ===
+=== Web Librarian ===
 Contributors: RobertPHeller, psykro
 Donate link: http://www.deepsoft.com/home/products/web-librarian/
 Tags: widget,shortcode,library,circulation
