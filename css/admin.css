@@ -1,0 +1,253 @@
+/*
+ * Admin styles
+ */
+
+/* Various 32x32 icons for admin pages and sub-pages */
+
+#icon-weblib-options {
+  background: transparent url(../images/Options_Icon.png) no-repeat;
+}
+
+#icon-patrons {
+  background: transparent url(../images/Patron_Icon.png) no-repeat;
+}
+
+#icon-patron-edit {
+  background: transparent url(../images/Patron_Icon.png) no-repeat;
+}
+
+#icon-patron-view {
+  background: transparent url(../images/Patron_Icon.png) no-repeat;
+}
+
+#icon-patron-add {
+  background: transparent url(../images/Patron_Icon.png) no-repeat;
+}
+
+#icon-patron-add-bulk {
+  background: transparent url(../images/Patron_Icon.png) no-repeat;
+}
+
+#icon-types {
+  background: transparent url(../images/CircType_Icon.png) no-repeat;
+}
+
+#icon-type-edit {
+  background: transparent url(../images/CircType_Icon.png) no-repeat;
+}
+
+#icon-type-add {
+  background: transparent url(../images/CircType_Icon.png) no-repeat;
+}
+
+#icon-collection {
+  background: transparent url(../images/Collection_Icon.png) no-repeat;
+}
+
+#icon-item-view {
+  background: transparent url(../images/Collection_Icon.png) no-repeat;
+}
+
+#icon-item-edit {
+  background: transparent url(../images/Collection_Icon.png) no-repeat;
+}
+
+#icon-item-add {
+  background: transparent url(../images/Collection_Icon.png) no-repeat;
+}
+
+#icon-item-add-bulk {
+  background: transparent url(../images/Collection_Icon.png) no-repeat;
+}
+
+#icon-weblib-db-maint {
+  background: transparent url(../images/Collection_Icon.png) no-repeat;
+}
+
+#icon-circulation {
+  background: transparent url(../images/Circulation_Icon.png) no-repeat;
+}
+
+#icon-statistics {
+  background: transparent url(../images/CircStats_Icon.png) no-repeat;
+}
+
+#icon-export-statistics {
+  background: transparent url(../images/CircStats_Icon.png) no-repeat;
+}
+
+#amazon-logo {
+  background-color: transparent;
+  background-image: url(../images/AmazonLogo.gif);
+  background-repeat: no-repeat;
+  border: none;
+  padding: 5px;
+  
+}
+
+img.WEBLIB_AWS_addinsertbutton {
+    margin: 2px;
+    cursor: pointer;
+}
+
+img.WEBLIB_AWS_addinsertbutton:hover {
+    
+}
+
+.update_field {
+    background: transparent url(../images/update_field.png) no-repeat;
+    width:16;
+    height:16;
+}
+
+/* Error messages are in <span id="error">...</span>.
+   Initially bold and red. */
+
+#error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Overdue and expired dates are in <span class="overdue">...</span>.
+   Initially italic and red. */
+
+span.overdue {
+  font-style: italic;
+  color: red;
+}
+
+/* All <input type="submit" ...> and many <a href=""...> have 
+   class="weblib-button" -- the links are meant to look like buttons.
+   I coded the submit buttons to have this class as well as the <a href>'s, 
+   so that they would all have the same styling. */
+
+
+div.circulation-desk {
+  /*width: 100%;*/
+}
+
+div.weblib-row {
+  display: table-row;
+}
+
+.weblib-circdesk {
+  height: auto;
+}
+
+select.patrondroplist {
+  overflow: scroll;
+}
+
+#weblib-inputs {
+  float: left;
+/*  width: 66%;*/
+  vertical-align: top;
+  display: table-cell;
+  /*background: yellow;*/
+  /*padding: 0px;*/
+  /*margin: 0px;*/
+}
+
+div.weblib-inputitem {
+  /*float: right;*/
+  /*width: 100%;*/
+  /*margin: auto;*/
+  margin-right: 2px;
+  display: table-row;
+  /*background: pink;*/
+  padding: 0px;
+  margin: 0px;
+}
+div.weblib-inputitem-button {
+  /*float: right;*/
+  /*width: 100%;*/
+  /*margin: auto;*/
+  margin-right: 2px;
+  display: table-row;
+  /*background: pink;*/
+  padding: 0px;
+  margin: 0px;
+}
+
+div.weblib-inputitem label {
+  /*width: 30%;*/
+  vertical-align: top;
+  display: table-cell;
+  /*border: 2px solid green;*/
+}
+
+div.weblib-inputitem select, #weblib-inputitem input.weblib-input-fill {
+  /*width: 51%;*/
+  vertical-align: top;
+  display: table-cell;
+  /*border: 2px solid yellow;*/
+}
+
+div.weblib-inputitem select {
+  padding-right: 5px;
+}
+
+div.weblib-inputitem input.button {
+  /*width: 46%;*/
+  /*vertical-align: top;*/
+  /*display: table-cell;*/
+  text-align: left;
+  /*margin: 0px;*/
+  float: right;
+  /*border: 2px solid magenta;*/
+}
+
+div.weblib-inputitem-button input.button {
+  /*width: 46%;*/
+  /*vertical-align: top;*/
+  /*display: table-cell;*/
+  text-align: left;
+  /*margin: 0px;*/
+  float: left;
+  /*border: 2px solid magenta;*/
+}
+
+div.weblib-inputitem a.button {
+  /*width: 46%;*/
+  /*vertical-align: top;*/
+  /*display: table-cell;*/
+  text-align: left;
+  float: right;
+  /*border: 2px solid magenta;*/
+}
+
+#weblib-buttons {
+  float: right;
+/*  width: 30%;*/
+  vertical-align: top;
+  display: table-cell;
+  /*background: orange;*/
+}
+
+/*#weblib-buttons a.button {
+  margin-top: 4px;
+}*/
+
+table.patroncirclist-table {
+}
+
+table.itemcircrecordlist-table {
+}
+
+table.listpatrons-table {
+}
+
+#aws-formframe {
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+#resizable {
+    width:100%;
+    
+/*    border-style:solid;*/
+}
+
+
+    
