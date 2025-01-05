@@ -1,0 +1,19 @@
+{
+    "name": "jonathanbossenger/weblibrarian",
+    "description": "A WordPress plugin that implements a basic library collection and circulation system.",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jonathan Bossenger",
+            "email": "jonathanbossenger@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
